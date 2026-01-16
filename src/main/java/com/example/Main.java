@@ -1,6 +1,6 @@
 package com.example;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
        Roata r1 = new Roata(1);
        Roata r2 = new Roata(2);
@@ -13,6 +13,6 @@ class Main {
        m.adaugaRoata(r3);
        m.adaugaRoata(r4);
        
-       m.calculeazaArie();
+       m.calculeazaArieTotala();
     }
  }  
